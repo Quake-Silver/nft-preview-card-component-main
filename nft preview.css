@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: hsl(217, 54%, 11%);
+  font-weight: 300, 400, 700;
+}
+.container {
+  width: 300px;
+  background-color: hsl(216, 50%, 16%);
+  padding: 16px;
+  border-radius: 15px;
+  filter: drop-shadow(0px 6px 15px rgba(0, 0, 0, 0.7));
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
+}
+.hover > img {
+  max-width: 270px;
+  border-radius: 8px;
+}
+.card-top p,
+h3 {
+  margin-top: 15px;
+}
+
+.card-top h3 {
+  color: white;
+  font-size: 18px;
+}
+.desc > h3:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+.card-top p {
+  color: hsl(215, 51%, 70%);
+  margin-bottom: 15px;
+}
+.card-top {
+  margin-bottom: 20px;
+}
+
+.hover :hover {
+  opacity: 0.4;
+}
+.hover:hover {
+  background-color: hsl(178, 100%, 50%);
+  background-image: url(images/icon-view.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  border-radius: 8px;
+  max-width: 270px;
+}
+.icon-container {
+  display: flex;
+
+  margin-bottom: 20px;
+}
+
+.card-bottom {
+  display: flex;
+  margin-bottom: 10px;
+  margin-top: 25px;
+}
+.icon-ethereum {
+  color: hsl(178, 100%, 50%);
+  margin-left: 5px;
+  float: right;
+}
+.icon-clock {
+  color: hsl(215, 51%, 70%);
+  margin-left: 5px;
+  float: right;
+}
+.eth {
+  margin-right: 85px;
+}
+.card-bottom img {
+  width: 23px;
+  height: 23px;
+  border: 1px hsl(0, 0%, 100%) solid;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+.card-bottom a {
+  color: white;
+  text-decoration: none;
+  margin-left: 3px;
+}
+.card-bottom a:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.card-bottom p {
+  color: hsl(215, 51%, 70%);
+  font-size: 14px;
+  margin-top: 3px;
+}
+.desc {
+  border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  color: white;
+}
+.attribution {
+  font-size: 13px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
